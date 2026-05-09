@@ -52,7 +52,8 @@ p {
     font-size: 35px;
 }
 
-#Song1 {
+
+.Song_beige {
     background-color: #FFE9C3;
     padding-left: 10%;
     display: flex;
@@ -62,20 +63,20 @@ p {
     color: #1B1B1B;
 }
 
-#Song1 #Album1 {
+.Song_beige .Album_beige {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2%;
 }
 
-#Album1 img {
+.Album_beige img {
     width: 40%;
     padding: 0;
     margin-bottom: -4%;
 }
 
-#Song2 {
+.Song_black {
     background-color: #1B1B1B;
     padding-right: 10%;
     display: flex;
@@ -85,131 +86,22 @@ p {
     color: #FFE9C3;
 }
 
-#Song2 p {
+.Song_black p {
     margin-left: 5%;
 }
 
-#Song2 #Album2 {
+.Song_black .Album_black {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2%;
 }
 
-#Song2 #text p:first-child {
+.Song_black .text p:first-child {
     white-space: nowrap;
 }
 
-#Album2 img {
-    width: 40%;
-    padding: 0;
-    margin-bottom: -4%;
-}
-
-#Song3 {
-    background-color: #FFE9C3;
-    padding-left: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 5%;
-    color: #1B1B1B;
-}
-
-#Song3 #Album3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2%;
-}
-
-#Album3 img {
-    width: 40%;
-    padding: 0;
-    margin-bottom: -4%;
-}
-
-
-#Song4 {
-    background-color: #1B1B1B;
-    padding-right: 10%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 5%;
-    color: #FFE9C3;
-}
-
-#Song4 p {
-    margin-left: 5%;
-}
-
-#Song4 #Album4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2%;
-}
-
-#Song4 #text p:first-child {
-    white-space: nowrap;
-}
-
-#Album4 img {
-    width: 40%;
-    padding: 0;
-    margin-bottom: -4%;
-}
-
-#Song5 {
-    background-color: #FFE9C3;
-    padding-left: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 5%;
-    color: #1B1B1B;
-}
-
-#Song5 #Album5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2%;
-}
-
-#Album5 img {
-    width: 40%;
-    padding: 0;
-    margin-bottom: -4%;
-}
-
-#Song6 {
-    background-color: #1B1B1B;
-    padding-right: 10%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 5%;
-    color: #FFE9C3;
-}
-
-#Song6 p {
-    margin-left: 5%;
-}
-
-#Song6 #Album6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2%;
-}
-
-#Song6 #text p:first-child {
-    white-space: nowrap;
-}
-
-#Album6 img {
+.Album_black img {
     width: 40%;
     padding: 0;
     margin-bottom: -4%;
